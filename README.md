@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dharunkumar-sh/torrent-guard/main/public/logo.svg" alt="Klimate Logo" width="120" />
+  <img src="https://raw.githubusercontent.com/dharunkumar-sh/torrent-guard/master/public/logo.svg" alt="Klimate Logo" width="120" />
 
   <p align="center">
     <strong>Flood Analyzer & Risk Detection System</strong><br>
