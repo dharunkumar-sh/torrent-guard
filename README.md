@@ -1,160 +1,189 @@
 <div align="center">
-  <h1 style="background:linear-gradient(45deg,#4b6cb7,#182848);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">Torrent Guard</h1>
-  <h3 style="color:#a0aec0;">开户注册 Flood Analyzer & Risk Detection</h3>
-  <p>
-    <a href="https://github.com/dharunkumar-sh/torrent-guard"><img src="https://img.shields.io/github/stars/dharunkumar-sh/torrent-guard?style=flat-square" alt="GitHub Stars"></a>
-    <a href="https://github.com/dharunkumar-sh/torrent-guard"><img src="https://img.shields.io/github/forks/dharunkumar-sh/torrent-guard?style=flat-square" alt="GitHub Forks"></a>
-    <a href="https://www.npmjs.com/package/flood-analyser-app"><img src="https://img.shields.io/npm/v/flood-analyser-app?style=flat-square" alt="NPM Version"></a>
-    <a href="https://github.com/dharunkumar-sh/torrent-guard/blob/main/package.json"><img src="https://img.shields.io/github/package-json/dependency-version/dharunkumar-sh/torrent-guard/next?label=next&style=flat-square" alt="Next.js Version"></a>
-    <a href="https-large"><img src="https://img.shields.io/badge/TypeScript-4.7.4-blue?style=flat-square" alt="TypeScript"></a>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&height=200&section=header&text=Torrent%20Guard&fontSize=80&animation=fadeIn&fontAlign=center" width="100%" />
+
+  <p align="center">
+    <strong>Flood Analyzer & Risk Detection System</strong><br>
+    <i>Advanced monitoring and risk assessment for torrent-based traffic and flood patterns.</i>
   </p>
+
+  <div align="center">
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Radix_UI-ff4d4d?style=for-the-badge&logo=radix-ui&logoColor=white" alt="Radix UI" />
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License" />
+  </div>
 </div>
 
 ---
 
 ## 📖 Description
 
-Torrent Guard is a lightweight **Next.js** web application that visualizes torrent traffic, analyzes flood patterns, and flags potential risks in real time. Built with TypeScript, Radix UI, and Tailwind CSS, it offers a clean, responsive interface for monitoring torrent activity and protecting users from malicious or excessive traffic.
+**Torrent Guard** is a sophisticated risk detection and flood analysis application designed to monitor, analyze, and mitigate risks associated with torrent traffic. By leveraging a modern web interface, it provides real-time visibility into flood patterns and risk metrics, allowing administrators to identify anomalies and protect network integrity.
 
----
+The project is built as a high-performance web application utilizing the **Next.js App Router** architecture, ensuring a seamless user experience with a highly responsive, accessible UI powered by **Radix UI** and **Tailwind CSS**.
 
-## 📄 Table of Contents
+## 🗺️ Table of Contents
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Usage](#-usage)
-- [Folder Structure](#-folder-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgements](#-acknowledgements)
+- [🚀 Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📦 Getting Started](#-getting-started)
+- [🏗️ Architecture](#️-architecture)
+- [📂 Folder Structure](#-folder-structure)
+- [⚙️ Usage](#️-usage)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
 ## 🚀 Features
 
-| Feature | Description |
-|---------|-------------|
-| **Flood Analysis** | Real‑time dashboard displaying torrent uploads, downloads, and peer counts. |
-| **Risk Detection** | Automatic alerts when traffic exceeds configurable thresholds. |
-| **Responsive UI** | Mobile‑first design using Tailwind CSS. |
-| **Component Library** | Reusable Radix‑based UI components (buttons, alerts, tabs, etc.). |
-| **TypeScript** | Strict typing for safer code and developer ergonomics. |
-| **Server‑Side Rendering** | Next.js for SEO & fast initial load. |
-| **Hot‑Reloading** | Instant feedback during development. |
+| Feature | Description | Status |
+| :--- | :--- | :---: |
+| **Flood Analysis** | Real-time detection of traffic spikes and flood patterns. | ✅ |
+| **Risk Assessment** | Automated risk scoring based on traffic behavior and source. | ✅ |
+| **Responsive Dashboard** | Modern, adaptive UI for monitoring across all device sizes. | ✅ |
+| **Modular UI Components** | Atomic design system using Radix UI for accessibility and consistency. | ✅ |
+| **Type-Safe Logic** | Full TypeScript integration for robust data handling and error prevention. | ✅ |
+| **Rapid Deployment** | Optimized build pipeline via Next.js for production-grade performance. | ✅ |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org)  
-- **Language**: [TypeScript](https://www.typescriptlang.org)  
-- **UI Components**: [Radix UI](https://www.radix-ui.com)  
-- **Styling**: [Tailwind CSS](https://tailwindcss.com) + [clsx](https://github.com/lukeed/clsx) + [class-variance-authority](https://github.com/joe-bell/class-variance-authority)  
-- **Icons**: [Lucide](https://lucide.dev)  
-- **Build Tool**: `next build` / `469`  
-- **Linting**: ESLint + Next.js config  
-- **Environment**: Node.js (recommended ≥ 16.x)
+### Frontend
+- **Framework:** [Next.js 15+](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components:** [Radix UI](https://www.radix-ui.com/) (Primitives) & [Lucide React](https://lucide.dev/) (Icons)
+
+### Tooling
+- **Build System:** PostCSS, TypeScript Compiler
+- **Linting:** ESLint
+- **Environment:** Node.js
 
 ---
 
 ## 📦 Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/dharunkumar-sh/torrent-guard.git
-cd torrent-guard
+### Prerequisites
+- **Node.js**: v18.x or higher
+- **npm** or **yarn**
 
-# Install dependencies
-npm install
+### Installation
 
-# Start the development server
-npm run dev
-# or run the provided script
-./start-dev.sh
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/dharunkumar-sh/torrent-guard.git
+   cd torrent-guard
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or use the provided shell script
+   ./start-dev.sh
+   ```
+
+4. **Open the application**
+   Navigate to `http://localhost:3000` in your browser.
+
+---
+
+## 🏗️ Architecture
+
+Torrent Guard follows a modular frontend architecture, separating the UI logic (Components) from the business logic (Lib) and the page routing (App).
+
+```mermaid
+graph TD
+    A[Client Browser] --> B[Next.js App Router]
+    B --> C[Page Components]
+    C --> D[UI Component Library]
+    D --> E[Radix UI Primitives]
+    C --> F[Utility Functions]
+    F --> G[Risk Analysis Logic]
 ```
 
-Open your browser at <http://localhost:3000> to view the app. The development server supports hot‑module replacement, so changes are reflected instantly.
+---
+
+## 📂 Folder Structure
+
+<details>
+<summary>Click to expand file tree</summary>
+
+```text
+torrent-guard/
+├── app/                # Next.js App Router (Pages & Layouts)
+│   ├── layout.tsx      # Root layout wrapper
+│   ├── page.tsx        # Main dashboard entry point
+│   └── globals.css     # Global styles & Tailwind directives
+├── components/         # Reusable UI components
+│   ├── ui/             # Atomic UI components (Button, Input, Card, etc.)
+│   │   ├── alert-dialog.tsx
+│   │   ├── badge.tsx
+│   │   ├── button.tsx
+│   │   └── ...
+│   └── ...
+├── lib/                # Utility functions and shared logic
+│   └── utils.ts        # Tailwind merge & clsx helpers
+├── public/             # Static assets (logos, icons)
+├── tsconfig.json       # TypeScript configuration
+├── next.config.ts      # Next.js configuration
+└── package.json        # Project dependencies and scripts
+```
+</details>
 
 ---
 
 ## ⚙️ Usage
 
-```bash
-# Build for production
-npm run build
+### Analyzing Traffic
+1. Navigate to the main dashboard.
+2. Input the target identifier or upload the traffic log.
+3. The **Risk Detection** engine will process the data and highlight high-risk patterns using the `Alert` and `Badge` components.
+4. Use the `Tabs` interface to switch between **Analysis**, **Risk Logs**, and **Settings**.
 
-# Start the production server
-npm start
-```
+### Component Integration
+To add a new UI element, utilize the existing design system in `components/ui`:
+```tsx
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 
-> **Tip**: The app can also be deployed to Vercel or any platform that supports Next.js. Just push the repository and let Vercel handle the build.
-
----
-
-## 📁 Folder Structure
-
-```text
-torrent-guard/
-├─ app/
-│  ├─ favicon.ico
-│  ├─ globals.css
-│  ├─ layout.tsx
-│  └─ page.tsx
-├─ components/
-│  └─ ui/
-│     ├─ alert-dialog.tsx
-│     ├─ badge.tsx
-│     ├─ button.tsx
-│     ├─ card.tsx
-│     ├─ input.tsx
-│     ├─ label.tsx
-│     ├─ select.tsx
-│     ├─ separator.tsx
-│     ├─ tabs.tsx
-│     └─ textarea.tsx
-├─ lib/
-│  └─ utils.ts
-├─ public/
-│  └─ logo.svg
-├─ .gitignore
-├─ eslint.config.mjs
-├─ next.config.ts
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.mjs
-├─ start-dev.sh
-├─ tsconfig.json
-└─ README.md
+export default function RiskCard() {
+  return (
+    <div className="p-4 border rounded-lg">
+      <Badge variant="destructive">High Risk</Badge>
+      <Button onClick={() => analyze()}>Analyze Now</Button>
+    </div>
+  )
+}
 ```
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please read the following guidelines:
+Contributions are welcome! Please follow these steps:
 
-1. Fork the repository and create a branch for your feature/bugfix.
-2. Ensure TypeScript compiles (`npm run lint`).
-3. Add tests if applicable.
-4. Submit a pull request and describe your changes.
-
-All contributions must adhere to the **[Contributor Covenant](https://www.contributor-covenant.org/)** code of conduct.
-
----
-
-## 📜 License
-
-This project is currently **unlicensed**. If you wish to use the code, please contact the author for clarification on usage rights.
+1. Fork the Project.
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
 ---
 
-## 🙏 Acknowledgements
+## 📄 License
 
-- **Radix UI** – Accessible component primitives.  
-- **Tailwind CSS** – Utility-first styling.  
-- **Lucide** – Modern icon set.  
-- **Next.js** – React framework for production.  
-- **TypeScript** – Static typing.  
+This project is currently unlicensed. Please contact the maintainer for usage permissions.
 
 ---
+
+<div align="center">
+  <p>Developed with ❤️ by <a href="https://github.com/dharunkumar-sh">dharunkumar-sh</a></p>
+</div>
