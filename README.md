@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&height=200&section=header&text=Torrent%20Guard&fontSize=80&animation=fadeIn&fontAlign=center" width="100%" />
+  <img src="https://raw.githubusercontent.com/dharunkumar-sh/torrent-guard/main/public/logo.svg" alt="Klimate Logo" width="120" />
 
   <p align="center">
     <strong>Flood Analyzer & Risk Detection System</strong><br>
